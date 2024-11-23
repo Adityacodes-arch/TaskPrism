@@ -46,7 +46,7 @@ def greedy_coloring(adj_matrix):
 
 #main app code
 def main():
-    st.title("🚀 TaskWhiz")
+    st.markdown("<h1 style='text-align: center;'>🚀 TaskWhiz</h1>", unsafe_allow_html=True)
     st.title("Resource/Task Allocation using Graph Colouring")
     st.write("""
     ### What is Graph Coloring?
