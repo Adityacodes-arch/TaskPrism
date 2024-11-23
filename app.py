@@ -7,7 +7,7 @@ import matplotlib.colors as mcolors
 import plotly.graph_objects as go
 import time
 
-st.set_page_config(page_title="Graph Coloring & Task Allocation", layout="wide", page_icon="📊")
+st.set_page_config(page_title="TaskWhiz", layout="wide", page_icon="📊")
 
 # helper funtions
 def generate_color_map(n_colors):
@@ -46,7 +46,8 @@ def greedy_coloring(adj_matrix):
 
 #main app code
 def main():
-    st.title("🚀 Resource/Task Allocation using Graph Colouring")
+    st.title("🚀 TaskWhiz")
+    st.title("Resource/Task Allocation using Graph Colouring")
     st.write("""
     ### What is Graph Coloring?
     **Graph coloring** is a method of assigning colors to the nodes of a graph such that no two adjacent nodes share the same color. This technique is used in various real-world problems like scheduling tasks, resource allocation, and conflict resolution.
@@ -184,3 +185,4 @@ def main():
                     
 if __name__ == "__main__":
     main()
+
