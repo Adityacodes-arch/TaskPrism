@@ -1,3 +1,7 @@
+# TaskWhiz
+
+TaskWhiz is a resource/task allocation app using graph coloring. It helps optimize task scheduling and resource usage. 
+You can view the live app [here](https://taskwhiz.streamlit.app).
 # Task/Resource Allocation Using Graph Coloring
 
 ## Overview
