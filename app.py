@@ -66,7 +66,7 @@ def main():
     3. **Explore Outputs:**  
        - **Graph:** Task dependencies and resources.  
        - **Timeline:** Task schedule.
-       - **Download Data:**Export as CSV.
+       - **Download Data:** Export as CSV.
 
     """)
 
