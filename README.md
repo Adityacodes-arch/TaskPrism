@@ -27,6 +27,8 @@ This project demonstrates the use of graph coloring algorithms to optimize resou
   - Automatic detection of overdue tasks
   - Resource allocation overview
   - Exportable task execution data
+ ## 👉 Tip:
+ To follow priority in task allocation, set Priority = 1 for critical tasks.
 
 ## ⚙️ Prerequisites
 Required Python packages:
