@@ -75,7 +75,7 @@ def main():
     # Sidebar Section
     st.sidebar.header("Task Allocation Parameters")
     n_nodes = st.sidebar.number_input(
-        "Number of tasks (nodes):", min_value=1, max_value=20, value=4, step=1
+        "Number of tasks (nodes):", min_value=1, max_value=20, value=5, step=1
     )
     prob = st.sidebar.slider(
         "Graph density (probability of dependency):", 0.0, 1.0, 0.5, 0.01
