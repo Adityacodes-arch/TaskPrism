@@ -52,13 +52,13 @@ def main():
     st.markdown("<h1 style='text-align: center;'>📊 TaskPrism</h1>", unsafe_allow_html=True)
 
     # Subtitle
-    st.title("Resource/Task Allocation using Graph Colouring")
+    st.title("Allocate Tasks with Graph Colouring")
 
     # How-To Section
     st.write("### 📋 How to Use TaskPrism")
     st.write("""
     1. **Set Task Details**:  
-       Use the sidebar button on top left to set the number of tasks, graph density, and resources.  
+       Use the **sidebar button on top left** to set the number of tasks, graph density, and resources.  
        Add task **durations**, **deadlines**, **descriptions**, and **priorities**.  
 
     2. **Generate Results**:  
@@ -67,7 +67,6 @@ def main():
     3. **Explore Outputs**:  
        - **Graph**: Visualize task dependencies and assigned resources.  
        - **Timeline**: View the Gantt chart/task execution timeline.  
-       - **Overdue Alerts**: Check for any overdue tasks.  
 
     4. **Download Data**:  
        Export the task schedule as a CSV file for offline use.  
