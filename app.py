@@ -58,7 +58,7 @@ def main():
     st.write("### 📋 How to Use TaskPrism")
     st.write("""
     1. **Set Task Details**:  
-       Use the sidebar to set the number of tasks, graph density, and resources.  
+       Use the sidebar button on top left to set the number of tasks, graph density, and resources.  
        Add task **durations**, **deadlines**, **descriptions**, and **priorities**.  
 
     2. **Generate Results**:  
@@ -71,18 +71,6 @@ def main():
 
     4. **Download Data**:  
        Export the task schedule as a CSV file for offline use.  
-    """)
-
-    # Project Description Section
-    st.title("What Does This Project Do?")
-    st.write("""
-    This project uses **graph coloring** to **optimize task allocation** in a project management scenario.  
-    It generates a task dependency graph, assigns resources (colors) to tasks, and helps visualize the task execution schedule using **Gantt charts**.  
-
-    By taking into account task **durations**, **deadlines**, and **priorities**, it ensures:  
-    - Efficient resource usage.  
-    - Conflict resolution.  
-    - Identification of overdue tasks.  
     """)
 
     # Sidebar Section
