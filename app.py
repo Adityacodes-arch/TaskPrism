@@ -52,24 +52,23 @@ def main():
     st.markdown("<h1 style='text-align: center;'>📊 TaskPrism</h1>", unsafe_allow_html=True)
 
     # Subtitle
-    st.markdown("<h2 style='text-align: center;'>Allocate Tasks with Graph Colouring</h2>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center;'>Allocate Tasks with Graph Colouring</h3>", unsafe_allow_html=True)
 
-    # How-To Section
+    # How-To Section (Shortened)
     st.write("### 📋 How to Use TaskPrism")
     st.write("""
-    📋 How to Use TaskPrism
-**Set Details:**
-- Use the **sidebar on the top left** to define tasks, resources, durations, deadlines, and priorities.
+    1. **Set Details:**  
+       Use the sidebar to define tasks, resources, durations, deadlines, and priorities.
+    
+    2. **Generate Results:**  
+       Click **"Generate"** to view the graph and Gantt chart.
 
-**Generate Results:**
-- Click the **Generate button** below to view the graph and Gantt chart.
+    3. **Explore Outputs:**  
+       - **Graph:** Task dependencies and resources.  
+       - **Timeline:** Task schedule.
+       - **Download Data:**Export as CSV.
 
-**Explore Outputs:**
-
-- Graph: Task dependencies and resources.
-- Timeline: Task schedule.
-- Download Data:
-- Export as CSV.""")
+    """)
 
     # Sidebar Section
     st.sidebar.header("Task Allocation Parameters")
@@ -95,8 +94,11 @@ def main():
             task_descriptions[node] = st.text_input(f"Description", f"Task {node + 1}", key=f"desc_{node}")
             task_priorities[node] = st.slider(f"Priority (1 = highest)", 1, 10, 1, key=f"priority_{node}")
 
+    # Instruction to click the button on the main page
+    st.sidebar.write("🔘 **After setting the parameters, click the 'Generate' button on the main page.**")
+
     # Generate results
-    if st.sidebar.button("Generate Graph and Allocate Tasks"):
+    if st.button("Generate Graph and Allocate Tasks", key="generate", help="Click to generate the graph and allocate tasks"):
         with st.spinner("Generating the graph and allocating resources..."):
             time.sleep(1)
 
@@ -207,6 +209,5 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 
 
