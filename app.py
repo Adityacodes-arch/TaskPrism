@@ -69,7 +69,7 @@ def main():
 - Graph: Task dependencies and resources.
 - Timeline: Task schedule.
 - Download Data:
-- Export as CSV.
+- Export as CSV.""")
 
     # Sidebar Section
     st.sidebar.header("Task Allocation Parameters")
