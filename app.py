@@ -52,7 +52,7 @@ def main():
     st.markdown("<h1 style='text-align: center;'>📊 TaskPrism</h1>", unsafe_allow_html=True)
 
     # Subtitle
-    st.title("Allocate Tasks with Graph Colouring")
+    st.markdown("<h2 style='text-align: center;'>Allocate Tasks with Graph Colouring</h2>", unsafe_allow_html=True)
 
     # How-To Section
     st.write("### 📋 How to Use TaskPrism")
