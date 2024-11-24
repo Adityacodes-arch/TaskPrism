@@ -7,7 +7,7 @@ import matplotlib.colors as mcolors
 import plotly.graph_objects as go
 import time
 
-st.set_page_config(page_title="TaskWhiz", layout="wide", page_icon="📊")
+st.set_page_config(page_title="TaskPrism", layout="wide", page_icon="📊")
 
 
 # Helper functions
@@ -49,13 +49,13 @@ def greedy_coloring(adj_matrix):
 # Main application code
 def main():
     # Centered Title
-    st.markdown("<h1 style='text-align: center;'>🚀 TaskWhiz</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>📊 TaskPrism</h1>", unsafe_allow_html=True)
 
     # Subtitle
     st.title("Resource/Task Allocation using Graph Colouring")
 
     # How-To Section
-    st.write("### 📋 How to Use TaskWhiz")
+    st.write("### 📋 How to Use TaskPrism")
     st.write("""
     1. **Set Task Details**:  
        Use the sidebar to set the number of tasks, graph density, and resources.  
