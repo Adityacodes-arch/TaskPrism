@@ -57,20 +57,19 @@ def main():
     # How-To Section
     st.write("### 📋 How to Use TaskPrism")
     st.write("""
-    1. **Set Task Details**:  
-       Use the **sidebar button on top left** to set the number of tasks, graph density, and resources.  
-       Add task **durations**, **deadlines**, **descriptions**, and **priorities**.  
+    📋 How to Use TaskPrism
+**Set Details:**
+- Use the **sidebar on the top left** to define tasks, resources, durations, deadlines, and priorities.
 
-    2. **Generate Results**:  
-       Click **"Generate Graph and Allocate Tasks"** to create a resource allocation visualization and a gantt chart that schedules tasks.  
+**Generate Results:**
+- Click the **Generate button** below to view the graph and Gantt chart.
 
-    3. **Explore Outputs**:  
-       - **Graph**: Visualize task dependencies and assigned resources.  
-       - **Timeline**: View the Gantt chart/task execution timeline.  
+**Explore Outputs:**
 
-    4. **Download Data**:  
-       Export the task schedule as a CSV file for offline use.  
-    """)
+- Graph: Task dependencies and resources.
+- Timeline: Task schedule.
+- Download Data:
+- Export as CSV.
 
     # Sidebar Section
     st.sidebar.header("Task Allocation Parameters")
