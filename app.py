@@ -66,7 +66,7 @@ def main():
     3. **Explore Outputs:**  
        - **Graph:** Task dependencies and resources.  
        - **Timeline:** Task schedule.
-       - **Download Data:** Export the Gantt chart into .csv format
+       - **Download Data:** Export the Gantt chart in .csv format.
 
     """)
 
